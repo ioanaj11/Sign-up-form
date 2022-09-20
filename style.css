@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+.container{
+    display: flex;
+}
+
+.right-side{
+    background-image: url(goutham-krishna-h5wvMCdOV3w-unsplash.jpg);
+    background-size: cover;
+    width: 35%;
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    /*align-items: center;*/
+    justify-content: space-between;
+}
+
+.left-side{
+    width:65%;
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: 150px;
+}
+.form-area{
+    width: 100%;
+    -webkit-box-shadow: 0px 10px 13px -7px rgb(143, 165, 16), 5px 5px 15px 5px rgba(0,0,0,0); 
+    box-shadow: 0px 10px 13px -7px rgb(143, 165, 16), 5px 5px 15px 5px rgba(0,0,0,0);
+}
+
+.form-grid{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 2fr 2fr;
+    margin-bottom: 30px;
+}
+
+input{
+    width: 350px;
+    height: 25px;
+    font-size: 15px;
+    padding-left: 10px;
+    border-radius: 3px;
+}
+
+input:focus{
+    background-color: rgb(211, 223, 148);
+}
+
+label{
+    font-size: 15px;
+}
+
+
+.logo>p{
+    color: gold;
+    font-size: 50px;
+    font-weight: 400;
+    text-align: center;
+       }
+
+.logo {
+    background-color: rgba(14, 13, 13, 0.5);
+    height: 100px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo>img {
+    height: 80px;
+    width:auto;
+    color: gold;
+}
+footer{
+    color: beige;
+    text-align: center;
+    font-size: 20px;
+    background-color: rgba(14, 13, 13, 0.5);
+}
+footer>a{
+    color: gold;
+}
+
+.left-side{
+    padding: 20px;
+    font-size: 25px;
+}
+
+button{
+    font-size: 20px;
+    font-weight: 600;
+    padding: 8px 25px;
+    border-radius: 5px;
+    background-color: rgb(143, 165, 16);
+    margin-top:100px;
+}
+
+.final-step>p{
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.final-step>a{
+    color:rgb(72, 83, 8);
+    font-size: 20px;
+   }
