@@ -7,27 +7,29 @@
     display: flex;
 }
 
-.right-side{
+.left-side{
     background-image: url(goutham-krishna-h5wvMCdOV3w-unsplash.jpg);
     background-size: cover;
     width: 35%;
     height:100vh;
     display: flex;
     flex-direction: column;
-    /*align-items: center;*/
     justify-content: space-between;
 }
 
-.left-side{
+.right-side{
     width:65%;
-    height:100vh;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
-    margin-top: 150px;
+    margin-top: 50px;
+    padding: 20px;
+    font-size: 25px;
 }
 .form-area{
+    margin-top: 70px;
+    padding-left: 20px;
     width: 100%;
     -webkit-box-shadow: 0px 10px 13px -7px rgb(143, 165, 16), 5px 5px 15px 5px rgba(0,0,0,0); 
     box-shadow: 0px 10px 13px -7px rgb(143, 165, 16), 5px 5px 15px 5px rgba(0,0,0,0);
@@ -38,6 +40,7 @@
     grid-template-rows: 1fr 1fr 1fr;
     grid-template-columns: 2fr 2fr;
     margin-bottom: 30px;
+    margin-top: 15px;
 }
 
 input{
@@ -45,23 +48,28 @@ input{
     height: 25px;
     font-size: 15px;
     padding-left: 10px;
+    border: 1px solid;
+    border-color: rgb(143, 165, 16);
     border-radius: 3px;
 }
 
 input:focus{
-    background-color: rgb(211, 223, 148);
+    outline:none;
+    border-color: black;
 }
 
 label{
     font-size: 15px;
 }
 
-
 .logo>p{
-    color: gold;
+    color: rgb(204, 233, 40);
+    font-family: 'Shadows Into Light', cursive;
+    letter-spacing: 1vw;
     font-size: 50px;
-    font-weight: 400;
+    font-weight: 700;
     text-align: center;
+    margin-left: 30px;
        }
 
 .logo {
@@ -76,7 +84,6 @@ label{
 .logo>img {
     height: 80px;
     width:auto;
-    color: gold;
 }
 footer{
     color: beige;
@@ -85,12 +92,7 @@ footer{
     background-color: rgba(14, 13, 13, 0.5);
 }
 footer>a{
-    color: gold;
-}
-
-.left-side{
-    padding: 20px;
-    font-size: 25px;
+    color: rgb(143, 165, 16);
 }
 
 button{
@@ -99,7 +101,11 @@ button{
     padding: 8px 25px;
     border-radius: 5px;
     background-color: rgb(143, 165, 16);
-    margin-top:100px;
+    margin-top:70px;
+}
+
+.final-step{
+    padding-left: 20px;
 }
 
 .final-step>p{
@@ -107,7 +113,11 @@ button{
     font-size: 20px;
 }
 
-.final-step>a{
+.final-step>p>a{
     color:rgb(72, 83, 8);
     font-size: 20px;
-   }
+    }
+
+.form-area>p:last-of-type{
+    margin-top: 60px;
+}
