@@ -56,6 +56,8 @@ input{
 input:focus{
     outline:none;
     border-color: black;
+    -webkit-box-shadow: 5px 5px 15px -3px #a5e94d; 
+    box-shadow: 5px 5px 15px -3px #a5e94d;
 }
 
 label{
@@ -102,6 +104,11 @@ button{
     border-radius: 5px;
     background-color: rgb(143, 165, 16);
     margin-top:70px;
+}
+
+button:hover{
+    background-color: rgb(104, 121, 10) ;
+    cursor: grab;
 }
 
 .final-step{

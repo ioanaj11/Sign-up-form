@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign-up form</title>
     <link rel="stylesheet" href="style.css">
+    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
@@ -48,7 +49,7 @@
 
                         <div>
                             <label for="phone">PHONE NUMBER*</label><br>
-                            <input type="tel" name="phone" id="phone" required>
+                            <input type="tel" name="phone" id="phone" minlength=10 maxlength=10 required>
                         </div>
 
                         <div>
@@ -60,14 +61,15 @@
                             <label for="confirm-password">CONFIRM PASSWORD*</label><br>
                             <input type="password" name="confirm-password" id="confirm-password" required>
                         </div>
+                    </div></div>
+                    <div class="final-step">
+                        <button type="submit">Create account</button>
+                        <p>Already have an account? <a href="#">Log in</a></p>
+                        
                     </div>
                 </form>
-            </div>
-            <div class="final-step">
-                <button type="submit">Create account</button>
-                <p>Already have an account? <a href="#">Log in</a></p>
-                
-            </div>
+            
+           
         </div>
     </div>
     
